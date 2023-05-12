@@ -1,0 +1,32 @@
+.header {
+  height: 10vh;
+  color: dodgerblue;
+}
+
+a, a:visited, a:hover, a:active {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: inherit;
+  text-decoration: none;
+}
+
+// .footer {
+//   height: 10vh;
+//   position:fixed;bottom:0px;
+// }
+
+mat-sidenav {
+  width: 250px;
+}
+
+mat-sidenav-content {
+  height: 90vh;
+}
+
+.body {
+  margin-top: 5vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  font-size: 1.1 em;
+}

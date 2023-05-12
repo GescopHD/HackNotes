@@ -1,0 +1,13 @@
+<mat-accordion multi *ngFor="let categorie of categories">
+  <mat-expansion-panel [disabled]="(categorie.pages.length < 1)">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{categorie.nomCat}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-nav-list *ngFor="let page of categorie.pages let i=index">
+      <a mat-list-item routerLink={{page.route}} routerLinkActive="active-link">{{page.nomPage}}</a>
+    </mat-nav-list>
+  </mat-expansion-panel>
+</mat-accordion>

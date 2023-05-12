@@ -12,7 +12,7 @@ Le projet ne contient que la partie Front-End pour l'instant.
 
 Ouvrir le terminal et se placer dans le répertoire Front-End
 
-    cd /Front-End/
+    cd Front-End/
 
 Lancer le serveur
 
